@@ -74,5 +74,5 @@ m.drawmeridians(np.arange(-180,181,30))
 m.drawmapboundary(fill_color='white')
 
 # Plot latitude and longitude as a scatter plot onto the figure
-m.scatter(longitude, latitude, s=1, c='green', zorder=2)
+m.scatter(longitude, latitude, latlon=True, s=1, c='green', zorder=2)
 plt.show()
